@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Spamer</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jsgrid.min.css">
+    <link rel="stylesheet" href="/css/jsgrid-theme.min.css">
+</head>
+<body>
+    <main class="text-center">
+        <br>
+        <h1 class="bg-dark badge rounded-pill text-center" style="font-size:xx-large;">Actions</h1>
+        <div class="conteiner-fluid text-center">
+            <button class="btn btn-lg bg-dark text-white" id="add">Add</button>
+            <button class="btn btn-lg bg-dark text-white" id="edit">Edit</button>
+            <button class="btn btn-lg bg-dark text-white" id="delete">Delete</button>
+            <button class="btn btn-lg bg-dark text-white" id="clear">Clear</button>
+            <button class="btn btn-lg bg-dark text-white" id="mailTo">MailTo</button>
+        </div>
+
+        <div class="conteiner-fluid text-center" id="crudCont"></div>
+        <br>
+        <h1 class="bg-dark badge rounded-pill text-center" style="font-size:xx-large;">Mails</h1>
+        <div id="jsGrid">
+            <!-- show data here -->
+        </div>
+    </main>
+    <footer>
+
+    </footer> 
+<script src="/js/bootstrap.js"></script>
+<script src="/jquery/jquery.js"></script>
+<script src="/js/crudInit.js"></script>
+<script src="/js/jsgrid.min.js"></script>
+<script src="/js/gridInit.js"></script>
+<script src="/js/mailto.js"></script>
+</body>
+</html>
